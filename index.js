@@ -41,4 +41,4 @@ app.post( '/delete', ( req, res ) => {
 } )
 
 
-app.listen( 3000, () => console.log( "server started" ) )
+app.listen( process.env.PORT || 3000, () => console.log( "server started" ) )
